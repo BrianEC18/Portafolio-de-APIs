@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins&display=swap');
 
-*{
+/* index.css: Estilos para la página principal */
+
+/* Estilos globales */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Estilos del cuerpo de la página */
 body {
     font-family: 'inter', sans-serif;
     font-size: 18px;
     background-image: url('https://i.pinimg.com/originals/64/a0/c7/64a0c7e67e94e682e8ea78ffc5cbab0f.gif');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;;
+    overflow: hidden;
     color: #fff;
     display: flex;
 }
 
+/* Estilos del contenedor principal */
 .container {
     display: flex;
     flex-direction: column;
@@ -27,6 +32,7 @@ body {
     margin: 120px auto 0 auto;
 }
 
+/* Estilos del botón de cierre de sesión */
 .logout-icon {
     font-size: 32px;
     background-color: #222;
@@ -45,23 +51,27 @@ body {
     transform: scale(1.05)
 }
 
+/* Estilos del contenedor de la imagen de perfil */
 .img-container {
     height: 96px;
     width: 96px;
     margin-bottom: 25px;
 }
 
+/* Estilos de la imagen de perfil */
 img {
     width: 100%;
     border-radius: 50%;
     background-size: cover;
 }
 
+/* Estilos del título del usuario */
 h1 {
     font-size: 20px;
     margin-bottom: 32px;
 }
 
+/* Estilos de los enlaces a proyectos */
 .link-card {
     width: 100%;
     display: flex;
@@ -79,6 +89,7 @@ h1 {
     transform: scale(1.10);
 }
 
+/* Estilos de los íconos en los enlaces */
 .icons {
     font-size: 24px;
 }

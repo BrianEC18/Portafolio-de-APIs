@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
+/* login.css: Estilos para la página de inicio de sesión */
+
+/* Estilos globales */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
+/* Estilos de fondo y centrado */
 body {
     display: flex;
     justify-content: center;
@@ -17,6 +21,7 @@ body {
     background-position: center;
 }
 
+/* Estilos del contenedor principal */
 .wrapper {
     width: 500px;
     background: rgba(0, 0, 0, 0.705);
@@ -26,14 +31,15 @@ body {
     color: white;
     border-radius: 10px;
     padding: 30px 40px;
-
 }
 
+/* Estilos del encabezado */
 .wrapper h1 {
     font-size: 36px;
     text-align: center;
 }
 
+/* Estilos de los campos de entrada */
 .wrapper .input-box {
     position: relative;
     width: 100%;
@@ -41,6 +47,7 @@ body {
     margin: 30px 0;
 }
 
+/* Estilos de los campos de entrada de texto */
 .input-box input {
     width: 100%;
     height: 100%;
@@ -54,10 +61,12 @@ body {
     padding: 20px 45px 20px 20px;
 }
 
+/* Estilos del texto de marcador de posición */
 .input-box input::placeholder {
     color: #fff;
 }
 
+/* Estilos de los íconos en los campos de entrada */
 .input-box i {
     position: absolute;
     right: 20px;
@@ -66,27 +75,7 @@ body {
     font-size: 20px;
 }
 
-.wrapper .remember-forgot {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-}
-
-.remember-forgot label input {
-    accent-color: #fff;
-    margin-right: 3px;
-}
-
-.remember-forgot a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.remember-forgot a:hover {
-    text-decoration: underline;
-}
-
+/* Estilos del botón de inicio de sesión */
 .wrapper .btn {
     width: 100%;
     height: 45px;

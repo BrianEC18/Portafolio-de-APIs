@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Encabezado de la página -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login form</title>
+    <!-- Enlace a la hoja de estilos CSS -->
     <link rel="stylesheet" href="login.css">
+    <!-- Enlace a la biblioteca de iconos -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <!-- Contenedor principal -->
     <div class="wrapper">
+        <!-- Formulario de inicio de sesión -->
         <form id="login-form">
             <h1>Inicio de sesión</h1>
+            <!-- Campo de usuario -->
             <div class="input-box">
                 <input type="text" placeholder="Usuario" required>
                 <i class='bx bxs-user'></i>
             </div>
+            <!-- Campo de contraseña -->
             <div class="input-box">
                 <input type="password" placeholder="contraseña" required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
+            <!-- Botón de inicio de sesión -->
             <button type="submit" class="btn">Iniciar sesión</button>
         </form>
     </div>
+    <!-- Enlace al archivo JavaScript -->
     <script src="login.js"></script>
 </body>
 </html>
