@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    background-image: url('https://i.pinimg.com/originals/64/a0/c7/64a0c7e67e94e682e8ea78ffc5cbab0f.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;;
+    color: #fff;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    max-width: 600px;
+    margin: 120px auto 0 auto;
+}
+
+.logout-icon {
+    font-size: 32px;
+    background-color: #222;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.logout-button {
+    display: flex;
+    align-self: flex-start;
+    color: #fff;
+    transform: 0.2s;
+}
+
+.logout-button :hover {
+    transform: scale(1.05)
+}
+
+.img-container {
+    height: 96px;
+    width: 96px;
+    margin-bottom: 25px;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.link-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 24px;
+    transform: 0.2s;
+    border-radius: 10px;
+}
+
+.link-card :hover {
+    transform: scale(1.10);
+}
+
+.icons {
+    font-size: 24px;
+}
+
+.icons2 {
+    font-size: 24px;
+}

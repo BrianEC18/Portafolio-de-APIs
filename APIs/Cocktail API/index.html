@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail browser</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+    <a href="D:\Tareas UTSC\Tareas UTSC\4 tetra\Aplicaciones web orientada a servicios\APIs\Linktree\index.html" class="home-button">
+        <ion-icon class="home-icon" name="home-outline"></ion-icon>
+    </a>
+
+    <div class="container">
+        <div class="search-container">
+            <input 
+                type="text" 
+                placeholder="Type a cocktail name..." 
+                id="user-inp" 
+                value="margarita"
+            />
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
