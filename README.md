@@ -1,7 +1,6 @@
 # Portafolio-de-APIs
  Proyecto de portafolio de APIs - UTSC
-
-Al momento de descargar el proyecto sera necesario seguir las siguientes instrucciones para comprobar su funcionalidad:
+ Al momento de descargar el proyecto sera necesario seguir las siguientes instrucciones para comprobar su funcionalidad:
 
 1 - Ubiquese dentro del archivo "index.js" para poder modificar las rutas de los links.
 2 - En el apartado con la nota "Enlaces a proyectos", borre la ruta que se encuentra en los hiperenlaces "href" de los botones de los proyectos. 
