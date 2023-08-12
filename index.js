@@ -38,10 +38,3 @@ logoutButton.addEventListener("click", function () {
     }
 });
 
-/*   __            ^---^  __
-     \ \    ______(='w'=)/ / <(PasemeEeEEeEEeeEeeeeEe!)
-      \ \_/            |/ /
-       \__      ___   ___/   
-          | || |   | |
-          |_||_|   |_|
-*/
