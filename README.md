@@ -17,7 +17,7 @@
 5 - Redirijase al archivo "index.html" ubicada en la carpeta principal del proyecto.
 
 6 - Pegue entre las comillas dobles de los hiperenlaces "href" del boton del proyecto correspondiente.
-*NOTA: Los botones tienen el nombre del proyecto respectivo debajo de los hiper enlaces, entre los iconos del mismo boton*
+*NOTA: Los botones tienen el nombre del proyecto respectivo debajo de los hiperenlaces, entre los iconos del mismo boton*
 
 7 - *REPITA LOS PASOS DEL 3 AL 6 PARA PODER INGRESAR LOS ENLACES CORRESPONDIENTES DE LAS 3 APIS ANTES MENCIONADAS*
 
